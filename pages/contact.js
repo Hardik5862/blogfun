@@ -1,14 +1,17 @@
+import { Fragment } from "react";
 import Head from "next/head";
+
+import ContactForm from "../components/contact/contact-form";
 
 function Contact() {
   return (
-    <div>
+    <Fragment>
       <Head>
         <title>Contact | BlogFun</title>
         <meta name="description" content="contact me!" />
       </Head>
-      <h1>Contact</h1>
-    </div>
+      <ContactForm />
+    </Fragment>
   );
 }
 
